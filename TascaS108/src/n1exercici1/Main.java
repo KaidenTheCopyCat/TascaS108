@@ -7,4 +7,11 @@ public class Main {
 
 	}
 
+	//Per a tots els exercicis s'ha d'utilitzar l'API de Java Lambdas and Streams de Java 8+. 
+
+
+	/* A partir d’una llista de Strings, 
+	escriu un mètode que retorna una llista de totes les cadenes que contenen la lletra ‘o’.
+	 Imprimeix el resultat.
+	*/
 }
