@@ -5,8 +5,21 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		DelReves delReves = s -> new StringBuilder(s).reverse().toString();
+
+	        String original = "Hello, world!";
+	        String reversed = delReves.reverse(original);
+	        
+	        System.out.println("Original: " + original);
+	        System.out.println("Del reves: " + reversed);
+	    		
 	}
 
+	@FunctionalInterface
+	interface DelReves {
+	    String reverse(String s);
+	}
+	
 	/*
 	 * Crea una Functional Interface que contingui un mètode anomenat reverse(). 
 	 * Aquest mètode ha de rebre i ha de retornar un String. 
